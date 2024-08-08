@@ -8,9 +8,10 @@
 
 
         <div class="card-body">
+            <h5 class="card-text">Id : {{ $students->id }}</h5>
             <h5 class="card-title">Name : {{ $students->name }}</h5>
-            <p class="card-text">Address : {{ $students->address }}</p>
-            <p class="card-text">Mobile : {{ $students->mobile }}</p>
+            <h5 class="card-text">Address : {{ $students->address }}</h5>
+            <h5 class="card-text">Mobile : {{ $students->mobile }}</h5>
         </div>
 
         </hr>
