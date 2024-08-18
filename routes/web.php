@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
+use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,3 +24,6 @@ Route::resource('/students',StudentController::class);
 
 // teachers route api
 Route::resource('/teachers',TeacherController::class);
+
+// courses route api
+Route::resource('/courses',CourseController::class);
